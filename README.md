@@ -2,7 +2,7 @@
 
 buat project 3
 
-Link : bursakerja.github.io
+Link : https://bursakerja.github.io/
 
 ## Anggota
 
