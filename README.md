@@ -1,10 +1,8 @@
-# bursakerja.github.io
+# Link
 
-buat project 3
+https://bursakerja.github.io/
 
-Link : https://bursakerja.github.io/
-
-## Anggota
+# Anggota
 
 - Fatwa Fatahillah Fatah
 - Dimas Ardianto
