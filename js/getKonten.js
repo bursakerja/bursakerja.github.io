@@ -2,6 +2,7 @@ export function isiDataProposal(results) {
   const inputMapping = [
     { id: "judul", path: "judul" },
     { id: "anggota", path: "anggota" },
+    { id: "teamImage", path: "teamImage" },
     // { id: "mhs1", path: "biodata_mahasiswa._id" },
   ];
 
