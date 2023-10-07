@@ -1,15 +1,14 @@
 export function isiDataProposal(results) {
   const inputMapping = [
     { id: "judul", path: "judul" },
-    { id: "anggota1", path: "nama.anggota1" },
-    { id: "anggota2", path: "nama.anggota2" },
+    { id: "anggota", path: "anggota" },
     // { id: "mhs1", path: "biodata_mahasiswa._id" },
   ];
 
   inputMapping.forEach(({ id, path, index, property }) => {
     const inputElement = document.getElementById(id);
     const value = getNestedValue(results, path, index, property);
-    inputElement.value = value;
+    inputElement.innerText = value;
   });
 }
 
