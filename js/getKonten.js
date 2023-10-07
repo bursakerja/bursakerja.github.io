@@ -9,7 +9,7 @@ export function isiDataProposal(results) {
   inputMapping.forEach(({ id, path, index, property }) => {
     const inputElement = document.getElementById(id);
     const value = getNestedValue(results, path, index, property);
-    inputElement.innerText = value;
+    inputElement.innerHTML = value;
   });
 }
 
