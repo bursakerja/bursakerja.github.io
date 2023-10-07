@@ -17,7 +17,7 @@ function getNestedValue(obj, path, index, property) {
   const value = path
     .split(".")
     .reduce((value, key) => (value && value[key] ? value[key] : ""), obj);
-  // console.log(`Value at path ${path}:`, value);
+  console.log(`Value at path ${path}:`, value);
 
   if (
     Array.isArray(value) &&
