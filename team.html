@@ -68,21 +68,21 @@
 
           <div class="tc wf ig pb no">
             <a
-              href="#"
-              :class="{ 'hh/[0.15]' : page === 'home', 'sh' : page === 'home' && stickyMenu }"
-              class="lk gh dk rg tc wf xf _l gi hi"
+              href="index.html"
+              :class="{ '' : page === 'home', 'ok' : page === 'home' && stickyMenu }"
+              class="ek pk xl text-blue-500"
               >Home</a
             >
             <a
               href="proposal.html"
-              :class="{ 'nk yl' : page === 'home', 'ok' : page === 'home' && stickyMenu }"
-              class="ek pk xl"
+              :class="{ '' : page === 'home', 'ok' : page === 'home' && stickyMenu }"
+              class="ek pk xl text-blue-500"
               >Proposal</a
             >
             <a
-              href="team.html"
-              :class="{ 'nk yl' : page === 'home', 'ok' : page === 'home' && stickyMenu }"
-              class="ek pk xl"
+              href="#"
+              :class="{ 'hh/[0.15]' : page === 'home', 'sh' : page === 'home' && stickyMenu }"
+              class="lk gh dk rg tc wf xf _l gi hi bg-blue-500"
               >Team</a
             >
           </div>
@@ -93,52 +93,41 @@
     <!-- ===== Header End ===== -->
 
     <main>
-      <!-- ===== Hero Start ===== -->
-      <section class="gj do ir hj sp jr i pg">
-        <!-- Hero Images -->
-        <div class="xc fn zd/2 2xl:ud-w-187.5 bd 2xl:ud-h-171.5 h q r">
-          <img
-            src="images/shape-01.svg"
-            alt="shape"
-            class="xc 2xl:ud-block h t -ud-left-[10%] ua"
-          />
-          <img
-            src="images/shape-02.svg"
-            alt="shape"
-            class="xc 2xl:ud-block h u p va"
-          />
-          <img
-            src="images/shape-03.svg"
-            alt="shape"
-            class="xc 2xl:ud-block h v w va"
-          />
-          <img src="images/shape-04.svg" alt="shape" class="h q r" />
-          <img
-            src="images/ulbi.png"
-            alt="Woman"
-            class="absolute mt-[150px] px-16"
-          />
+      <!-- ===== Team Start ===== -->
+      <section class="i pg ji gp uq">
+        <!-- Bg Shapes -->
+        <span class="rc h s r vd fd/5 fh rm"></span>
+        <img src="images/shape-08.svg" alt="Shape Bg" class="h q r" />
+        <img src="images/shape-09.svg" alt="Shape" class="of h y z/2" />
+        <img src="images/shape-10.svg" alt="Shape" class="h _ aa" />
+        <img src="images/shape-11.svg" alt="Shape" class="of h m ba" />
+
+        <!-- Section Title Start -->
+        <div x-data="{ sectionTitle: `Our Team`}">
+          <div class="animate_top bb ze rj ki xn vq">
+            <h2
+              x-text="sectionTitle"
+              class="fk vj pr kk wm on/5 gq/2 bb _b"
+            ></h2>
+            <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+          </div>
         </div>
+        <!-- Section Title End -->
 
-        <!-- Hero Content -->
-        <div class="bb ze ki xn 2xl:ud-px-0">
-          <div class="tc _o">
-            <div class="animate_left jn/2">
-              <h1 class="fk vj zp or kk wm wb" id="judul"></h1>
-              <p class="fq">Selamat datang di website Proposal Proyek 3 kami</p>
-
-              <div class="tc tf yo zf mb">
-                <a
-                  href="proposal.html"
-                  class="ek jk lk gh gi hi rg ml il vc _d _l"
-                  >Lihat Proposal</a
-                >
-              </div>
+        <div class="bb ze i va ki xn xq jb jo">
+          <div class="wc qf pn xo gg cp">
+            <!-- Team Item -->
+            <div class="animate_top rj">
+              <div
+                class="w-72 h-72 mx-auto object-cover rounded-xl mb-[150px] md:w-64 md:h-64 lg:w-64 lg:h-64"
+                id="teamImage"
+              ></div>
+              <div class="hidden" id="judul"></div>
+              <h4 class="yj go kk wm ob zb" id="anggota"></h4>
             </div>
           </div>
         </div>
       </section>
-      <!-- ===== Hero End ===== -->
     </main>
     <!-- ===== Footer Start ===== -->
     <footer>
