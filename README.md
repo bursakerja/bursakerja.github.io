@@ -1,6 +1,6 @@
 # Link
 
-https://bursakerja.github.io/build/
+https://bursakerja.github.io
 
 # Anggota
 
