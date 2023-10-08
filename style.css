@@ -29,7 +29,7 @@
 }
 
 .animate-fade-right {
-  animation: fadeRight 1s ease-in-out;
+  animation: fadeRight 1.5s ease-in-out;
 }
 
 @keyframes fadeIn {
@@ -42,7 +42,7 @@
 }
 
 .animate-fade {
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 @font-face {
