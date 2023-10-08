@@ -17,11 +17,7 @@
     :class="{'b eh': darkMode === true}"
   >
     <!-- ===== Header Start ===== -->
-    <header
-      class="g s r vd ya cj"
-      :class="{ 'hh sm _k dj bl ll' : stickyMenu }"
-      @scroll.window="stickyMenu = (window.pageYOffset > 20) ? true : false"
-    >
+    <header class="g s r vd ya cj hh sm _k dj bl ll">
       <div class="bb ze ki xn 2xl:ud-px-0 oo wf yf i">
         <div class="vd to/4 tc wf yf">
           <a href="index.html">
@@ -65,7 +61,7 @@
           :class="{ 'd hh rm sr td ud qg ug jc yh': navigationOpen }"
         >
           <nav></nav>
-          <div class="tc wf ig pb no">
+          <div class="tc wf ig no justify-center">
             <a
               href="index.html"
               :class="{ '' : page === 'home', 'ok' : page === 'home' && stickyMenu }"
@@ -98,7 +94,6 @@
         <span class="rc h s r vd fd/5 fh rm"></span>
         <img src="images/shape-08.svg" alt="Shape Bg" class="h q r" />
         <img src="images/shape-09.svg" alt="Shape" class="of h y z/2" />
-        <img src="images/shape-10.svg" alt="Shape" class="h _ aa" />
         <img src="images/shape-11.svg" alt="Shape" class="of h m ba" />
 
         <!-- Section Title Start -->
