@@ -1,8 +1,8 @@
 export function isiDataIndex(results) {
   const inputMapping = [
     { id: "judul", path: "index.judul" },
-    { id: "anggota1", path: "index.anggota1" },
-    { id: "anggota2", path: "index.anggota2" },
+    { id: "anggota1", path: "anggota1" },
+    { id: "anggota2", path: "anggota2" },
     { id: "prodi", path: "index.prodi" },
   ];
 
@@ -17,8 +17,8 @@ export function isiDataProposal(results) {
   const inputMapping = [
     { id: "title", path: "proposal.title" },
     { id: "judulproyek", path: "proposal.judulproyek" },
-    { id: "anggota1", path: "proposal.anggota1" },
-    { id: "anggota2", path: "proposal.anggota2" },
+    { id: "anggota1", path: "anggota1" },
+    { id: "anggota2", path: "anggota2" },
     { id: "latarbelakang", path: "proposal.latarbelakang" },
     { id: "deskripsiaplikasi", path: "proposal.deskripsiaplikasi" },
     { id: "tujuan", path: "proposal.tujuan" },
