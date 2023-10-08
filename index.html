@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Base - Tailwind CSS Startup Template</title>
+    <title>Proposal Proyek 3 | Bursa Kerja</title>
     <link rel="icon" href="favicon.ico" />
     <link href="style.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -25,7 +25,7 @@
       <div class="bb ze ki xn 2xl:ud-px-0 oo wf yf i">
         <div class="vd to/4 tc wf yf">
           <a href="index.html">
-            <h1 class="text-2xl text-black font-bold">Bursa Kerja</h1>
+            <h1 class="text-2xl text-blue-600 font-bold">Bursa Kerja</h1>
           </a>
 
           <!-- Hamburger Toggle BTN -->
@@ -65,24 +65,23 @@
           :class="{ 'd hh rm sr td ud qg ug jc yh': navigationOpen }"
         >
           <nav></nav>
-
           <div class="tc wf ig pb no">
             <a
               href="#"
               :class="{ 'hh/[0.15]' : page === 'home', 'sh' : page === 'home' && stickyMenu }"
-              class="lk gh dk rg tc wf xf _l gi hi"
+              class="lk gh dk rg tc wf xf _l gi hi max-[1024px]:bg-blue-500"
               >Home</a
             >
             <a
               href="proposal.html"
-              :class="{ 'nk yl' : page === 'home', 'ok' : page === 'home' && stickyMenu }"
-              class="ek pk xl"
+              :class="{ '' : page === 'home', 'ok' : page === 'home' && stickyMenu }"
+              class="ek pk xl text-white hover:text-gray-200 max-[1024px]:text-blue-500"
               >Proposal</a
             >
             <a
               href="team.html"
-              :class="{ 'nk yl' : page === 'home', 'ok' : page === 'home' && stickyMenu }"
-              class="ek pk xl"
+              :class="{ '' : page === 'home', 'ok' : page === 'home' && stickyMenu }"
+              class="ek pk xl text-white hover:text-gray-200 max-[1024px]:text-blue-500"
               >Team</a
             >
           </div>
@@ -125,7 +124,9 @@
           <div class="tc _o">
             <div class="animate_left jn/2">
               <h1 class="fk vj zp or kk wm wb" id="judul"></h1>
-              <p class="fq">Selamat datang di website Proposal Proyek 3 kami</p>
+              <p class="mt-3" id="anggota1"></p>
+              <p class="mt-2" id="anggota2"></p>
+              <p class="font-bold mt-5" id="prodi"></p>
 
               <div class="tc tf yo zf mb">
                 <a
@@ -144,7 +145,7 @@
     <footer>
       <div class="bb ze ki xn 2xl:ud-px-0">
         <!-- Footer Top -->
-        <div class="ji gp">
+        <!-- <div class="ji gp">
           <div class="tc uf ap gg fp">
             <div class="animate_top zd/2 to/4">
               <a href="index.html">
@@ -335,21 +336,21 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- Footer Top -->
 
         <!-- Footer Bottom -->
         <div class="bh ch pm tc uf sf yo wf xf ap cg fp bj">
           <div class="animate_top">
             <ul class="tc wf gg">
-              <li><a href="#" class="xl">English</a></li>
+              <li><a href="#" class="xl">Indonesia</a></li>
               <li><a href="#" class="xl">Privacy Policy</a></li>
               <li><a href="#" class="xl">Support</a></li>
             </ul>
           </div>
 
           <div class="animate_top">
-            <p>&copy; 2025 Base. All rights reserved</p>
+            <p>&copy; 2023 Bursa Kerja. All rights reserved</p>
           </div>
         </div>
         <!-- Footer Bottom -->
@@ -428,6 +429,6 @@
       };
     </script>
     <script defer src="bundle.js"></script>
-    <script type="module" src="js/fetch.js"></script>
+    <script type="module" src="js/index.js"></script>
   </body>
 </html>
